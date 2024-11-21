@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html class="catalog" lang="ru">
+<html class="page-catalog" lang="ru">
 
 <head>
   <meta charset="UTF-8">
-  <title>Название проекта</title>
+  <title>Каталог продукции</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="icon" href="favicon.ico">
@@ -13,17 +13,17 @@
   <script src="scripts/index.js" defer></script>
 </head>
 
-<body class="catalog__body">
+<body class="page-catalog__body">
   <header class="main-header">
     <a class="main-header__logo main-logo main-logo--header" href="index.html">
       <picture>
-        <source media="(min-width: 1440px)" width="70" height="59" type="image/svg+xml" srcset="icons/logo-desktop.svg">
-        <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="icons/logo-tablet.svg">
-        <img class="main-logo__icon" src="icons/logo-mobile.svg" width="33" height="38" alt="Логотип Супер Кот">
+        <source media="(min-width: 1440px)" width="70" height="59" type="image/svg+xml" srcset="images/logos/logo-desktop.svg">
+        <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="images/logos/logo-tablet.svg">
+        <img class="main-logo__icon" src="images/logos/logo-mobile.svg" width="33" height="38" alt="Логотип Супер Кот">
       </picture>
       <picture>
-        <source media="(min-width: 1440px)" width="118" height="21" type="image/svg+xml" srcset="icons/logo-text">
-        <img class="main-logo__icon-name" src="icons/logo-text.svg" width="101" height="18" alt="Cat Energy">
+        <source media="(min-width: 1440px)" width="118" height="21" type="image/svg+xml" srcset="images/logos/logo-text.svg">
+        <img class="main-logo__icon-name" src="images/logos/logo-text.svg" width="101" height="18" alt="Cat Energy">
       </picture>
     </a>
     <nav class="main-nav">
@@ -404,8 +404,8 @@
             </a>
           </li>
         </ul>
-        <div class="catalog-extra__gift">
-          <p class="catalog-extra__gift-description">
+        <div class="catalog-extra__gift gift">
+          <p class="gift-description">
             Закажите все
             и получите чехол для
             кота в подарок!
@@ -454,7 +454,7 @@
     <div class="main-footer__wraper">
       <div class="main-footer__logo main-logo main-logo--footer">
         <a class="main-logo__link" href="index.html">
-          <img class="main-logo__icon-name" src="icons/logo-text.svg" width="128" height="24" alt="Cat Energy">
+          <img class="main-logo__icon-name" src="images/logos/logo-text.svg" width="128" height="24" alt="Cat Energy">
         </a>
       </div>
       <div class="main-footer__social social">
@@ -476,7 +476,8 @@
       </div>
       <div class="main-footer__copyright copyright">
         <p class="copyright__title">HTML Academy</p>
-        <a class="copyright__logo" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Логотип HTML Academy.">
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="Логотип HTML Academy.">
+          <img class="copyright__logo" src="images/logos/html-academy.svg" width="128" height="24" alt="Cat Energy">
         </a>
       </div>
     </div>
