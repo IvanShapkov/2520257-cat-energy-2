@@ -1,7 +1,8 @@
 /* GLOBAL */
+@import "./common/mixins.scss";
 @import "./common/variables.scss";
-@import "./common/global.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
 @import "./common/visually-hidden.scss";
 
 /* BLOCKS */
@@ -11,7 +12,8 @@
 @import "./blocks/main-logo.scss";
 @import "./blocks/main-nav.scss";
 @import "./blocks/main-container.scss";
-@import "./blocks/main-hero.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/hero.scss";
 @import "./blocks/programs.scss";
 @import "./blocks/advantages.scss";
 @import "./blocks/example.scss";
@@ -30,4 +32,3 @@
 @import "./blocks/gift.scss";
 @import "./blocks/subscribe.scss";
 @import "./blocks/email-form.scss";
-
