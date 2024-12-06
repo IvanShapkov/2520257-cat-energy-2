@@ -28,12 +28,20 @@
   }
 
   &--yt-logo {
+
+    // Вариант с превдоэлементом, чтобы был стандартный браузерный фокус
+    // &::before {
+    //   content: "";
+    //   display: block;
+    //   width: 28px;
+    //   height: 22px;
     mask-image: url("../../icons/stack.svg#youtube");
     background-color: $color-text-basic-grey-2;
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: 24px 19px;
   }
+
 
   &--telegram-logo {
     mask-image: url("../../icons/stack.svg#telegram");
@@ -43,9 +51,13 @@
     mask-size: 20px 17px;
   }
 
-  &:hover,
+  &:hover {
+    background-color: $bg-color-basic-green;
+  }
+
   &:focus-visible {
     background-color: $bg-color-basic-green;
+    border: 3px solid #83b3d3;
   }
 
   &:active {
