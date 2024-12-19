@@ -2,6 +2,39 @@
   color: $color-text-basic-black;
 }
 
-.main-header__logo {
+.main-header__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 13px 20px;
+}
+
+.main-header__nav {
   //
+}
+
+.main-header__promo {
+  //
+}
+
+@media (min-width: $tablet-width) {
+  .main-header__wrapper {
+    padding: 25px 30px;
+    max-width: $tablet-width + 200px;
+  }
+
+  .main-header__promo {
+    min-width: 768px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-header__wrapper {
+    padding: 55px 30px;
+    max-width: $desktop-width;
+  }
+
+  .main-header__promo {
+    //
+  }
 }
